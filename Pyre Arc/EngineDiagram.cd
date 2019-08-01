@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Engine::Core">
+    <Position X="6" Y="10" Width="1.5" />
+    <AssociationLine Name="foundation" Type="Engine::Foundation" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="10.5" />
+        <Point X="12.688" Y="10.5" />
+        <Point X="12.688" Y="8.43" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="instance" Type="Engine::Instance" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.75" Y="10" />
+        <Point X="6.75" Y="9.625" />
+        <Point X="3.375" Y="9.625" />
+        <Point X="3.375" Y="8.819" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="window" Type="Engine::Window" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.75" Y="10" />
+        <Point X="6.75" Y="9.625" />
+        <Point X="10.25" Y="9.625" />
+        <Point X="10.25" Y="8.627" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="physicalDevice" Type="Engine::PhysicalDevice" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.75" Y="10" />
+        <Point X="6.75" Y="9.625" />
+        <Point X="5.75" Y="9.625" />
+        <Point X="5.75" Y="8.175" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="surface" Type="Engine::Surface" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.75" Y="10" />
+        <Point X="6.75" Y="9.625" />
+        <Point X="7.875" Y="9.625" />
+        <Point X="7.875" Y="9.011" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAQAAAABAAAAIAAAABAAAAAI=</HashCode>
+      <FileName>Core.hpp</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="foundation" />
+      <Field Name="instance" />
+      <Field Name="window" />
+      <Field Name="physicalDevice" />
+      <Field Name="surface" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Engine::Servo">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Servo.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Instance">
+    <Position X="2.5" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAABAAAAAQAAAAAAgAAA=</HashCode>
+      <FileName>Instance.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Surface">
+    <Position X="7.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQIAAAEAABAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Surface.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Window">
+    <Position X="9.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAIAAAACAAAAAA=</HashCode>
+      <FileName>Window.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::PhysicalDevice">
+    <Position X="5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PhysicalDevice.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Engine::Foundation">
+    <Position X="12" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAQAAAABAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Foundation.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
