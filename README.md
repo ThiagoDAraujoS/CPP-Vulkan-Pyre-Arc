@@ -1,2 +1,2 @@
-# CPP-Vulkan-Pyre-Arc
-This is a vulkan api research project it uses the Cpp header for vulkan
+# CPP Vulkan Pyre Arc
+This repository contains a research project called Pyre Arc, the objective is to study the Vulkan Api and C++.  
