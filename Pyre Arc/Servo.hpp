@@ -13,7 +13,7 @@ namespace Servo {
 		inline virtual ~Servo() {};
 	};
 
-	//This servo construct and deconstruct the vkInstance object, it checks if all required extensions are avaliable and triggers the validation layers aswell
+	//This servo constructs and deconstructs the vkInstance object, it checks if all required extensions are avaliable and triggers the validation layers aswell
 	class Instance : public Servo<vk::Instance> {
 	private:
 		///Check if all required extensions are present for this aplication, if not throw an error
@@ -23,7 +23,7 @@ namespace Servo {
 		virtual ~Instance();
 	};
 
-	//This servo builds opens and closes the window
+	//This servo builds, opens and closes the window
 	class Window : public Servo<SDL_Window*> {
 	public:
 		Window();
